@@ -1,9 +1,28 @@
-# README
+# Numerical Methods App
 
-This is the [Flask](http://flask.pocoo.org/) [quick start](http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application) example for [Render](https://render.com).
+Esta es una aplicación simple en Python que utiliza métodos numéricos para calcular y visualizar funciones matemáticas. La interfaz de usuario (UI) se ha implementado con Tkinter, y la visualización de las funciones se realiza mediante Matplotlib.
 
-The app in this repo is deployed at [https://flask.onrender.com](https://flask.onrender.com).
+## Instalación
 
-## Deployment
+Asegúrate de tener instaladas las siguientes bibliotecas antes de ejecutar la aplicación:
 
-Follow the guide at https://render.com/docs/deploy-flask.
+```bash
+pip install -r requirements.txt
+
+```
+
+## Run App
+Ejecuta la App
+
+```bash
+python script.py
+
+```
+
+## Run Pruebas Unitarias
+Ejecuta las pruebas unitarias
+
+```bash
+python -m unittest test_app.py
+
+```
